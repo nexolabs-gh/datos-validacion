@@ -1,0 +1,122 @@
+{
+ "a_cambios_motor.parquet": {
+  "sha256": "b1bbb50a7bdce9d92523a63bcb3f030eef1ab9522fcfee1c0ee7f27bb5d35755",
+  "bytes": 3310
+ },
+ "a_desarrollo.parquet": {
+  "sha256": "ffa57f68a5b2d7a9e89eb86356bf77be76e31085620306a92347e49c84e3f4c0",
+  "bytes": 1231702
+ },
+ "a_desempeno_corte1.parquet": {
+  "sha256": "f19e6613ab6b66446cf4dc3dc4d9aec5baba6a15a9a0b531a7b9139858559b5e",
+  "bytes": 958504
+ },
+ "a_desempeno_corte2.parquet": {
+  "sha256": "62ec51f2ed32e8450a5c6d1e961460a5ac5fa43339c4cfca87d2f7fdb13c9570",
+  "bytes": 1047678
+ },
+ "a_genai_acciones.parquet": {
+  "sha256": "afbc2eccbfd6b35cecc7b2c03818e9a8dd521c09ae06b68163fa6d71a52c8d4b",
+  "bytes": 12955
+ },
+ "a_genai_eval_cliente.parquet": {
+  "sha256": "189114a95fb1eb31afd4c564d773bcfcbc8ef97a1a4bddf2c54d199d7e58cba1",
+  "bytes": 11919
+ },
+ "a_genai_eval_interno.parquet": {
+  "sha256": "4477ca678a56b6be5c66f2dbf24631c0d86ca6d4edc037565f9266128811d7eb",
+  "bytes": 6700
+ },
+ "a_hallazgos_previos.parquet": {
+  "sha256": "f2ac5346b9d6319070093f758176d36d7b82789d75c258206db407801d4d2f60",
+  "bytes": 5952
+ },
+ "a_inventario.parquet": {
+  "sha256": "468bdae072f71cd9448ec87ebbdd4ba1abd1abf9eddd7d6ce29a202c4c3cfe48",
+  "bytes": 7896
+ },
+ "a_monitor_oficial_2026T2.parquet": {
+  "sha256": "60c9e5a16341057cdc5d8cc9c3b18077ffc15eaf248b4e2baba060fa5734a143",
+  "bytes": 3015
+ },
+ "a_politica.json": {
+  "sha256": "05344054996dd176366b332d7417fb25d0fa2d5d68b48920e6e007ca51a2f707",
+  "bytes": 1501
+ },
+ "a_produccion.parquet": {
+  "sha256": "f3c37e69d76452d6bb9d8ce760238edcf9f9ac6fb478399deb78aaf5f949b1fb",
+  "bytes": 3179388
+ },
+ "a_produccion_corte2.parquet": {
+  "sha256": "8b08628c0d6db1dcec040b652249774388bad743b9524eed6a7d17baa239284a",
+  "bytes": 434760
+ },
+ "a_tabla_puntajes.json": {
+  "sha256": "2c36cf0a0fcb80a72f687028605bd83fe5cd1fd06a70910bde639c0c2e804068",
+  "bytes": 3790
+ },
+ "a_usos_observados.parquet": {
+  "sha256": "ee1bb4fd3c7bcb7933b8e271684d3381c53890543cb389d958f9de54fab1d0cd",
+  "bytes": 4838
+ },
+ "b_cambios_motor.parquet": {
+  "sha256": "b1bbb50a7bdce9d92523a63bcb3f030eef1ab9522fcfee1c0ee7f27bb5d35755",
+  "bytes": 3310
+ },
+ "b_desarrollo.parquet": {
+  "sha256": "d3ed354a080e1b06f1a249f4583619ae70fc2b928b81c26154691a484640d3e2",
+  "bytes": 1536572
+ },
+ "b_desempeno_corte1.parquet": {
+  "sha256": "654320f2101f52a5488d5932dfa19002073a500d95d65401c493a75d2c61c5db",
+  "bytes": 1146221
+ },
+ "b_desempeno_corte2.parquet": {
+  "sha256": "bf903e854015228b6ba8b2404b786abc52d0b4bedd632d4454a05149f2c9b540",
+  "bytes": 1259394
+ },
+ "b_genai_acciones.parquet": {
+  "sha256": "12a6c5535f8ab85123412680b26513531ff88ca65d8eebb6e2a30124cf35ac94",
+  "bytes": 12952
+ },
+ "b_genai_eval_cliente.parquet": {
+  "sha256": "61096abdd3e97df47d403190b9d2d233a92c03088b6c8e1618fa4abb143f2383",
+  "bytes": 11893
+ },
+ "b_genai_eval_interno.parquet": {
+  "sha256": "e46fc2d5645ea049ff44fcc0e54bbe3cfd19cf95cfc32b8f70bf5ac19a283941",
+  "bytes": 6701
+ },
+ "b_hallazgos_previos.parquet": {
+  "sha256": "f2ac5346b9d6319070093f758176d36d7b82789d75c258206db407801d4d2f60",
+  "bytes": 5952
+ },
+ "b_inventario.parquet": {
+  "sha256": "468bdae072f71cd9448ec87ebbdd4ba1abd1abf9eddd7d6ce29a202c4c3cfe48",
+  "bytes": 7896
+ },
+ "b_monitor_oficial_2026T2.parquet": {
+  "sha256": "162a4355a6d251fe53ff1309d6c636ba17dfc81f9a0a02c3af5429a9c5b0d935",
+  "bytes": 3015
+ },
+ "b_politica.json": {
+  "sha256": "05344054996dd176366b332d7417fb25d0fa2d5d68b48920e6e007ca51a2f707",
+  "bytes": 1501
+ },
+ "b_produccion.parquet": {
+  "sha256": "0b85026e44880e47fb1bf64a0da6620efa057c73579a7722e7d9dfdc317a2a0e",
+  "bytes": 3923661
+ },
+ "b_produccion_corte2.parquet": {
+  "sha256": "423ef5997802430cfcb0b561179eb8daa9970d888aa468cab3d5521173186284",
+  "bytes": 538577
+ },
+ "b_tabla_puntajes.json": {
+  "sha256": "7e78d98f6da11dc0ea6ec813145d835ebaf8bc184234067c2ba927adedf0b650",
+  "bytes": 3789
+ },
+ "b_usos_observados.parquet": {
+  "sha256": "9f3b88951d8c7491e5b38d128961a4c9694531675e6c0f2c54ef157e0cbcb39c",
+  "bytes": 4838
+ }
+}

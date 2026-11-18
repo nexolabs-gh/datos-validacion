@@ -1,0 +1,49 @@
+{
+ "entidad": "Vicuña Financiera",
+ "aviso": "Política ficticia del caso: sus umbrales son convenciones de la entidad, no exigencias de un regulador.",
+ "niveles": {
+  "factores": [
+   "materialidad (decisiones y exposición)",
+   "uso normativo",
+   "automatización y acciones",
+   "interacción directa con clientes",
+   "complejidad y dependencia de terceros"
+  ],
+  "regla": "Alto si materialidad alta o uso normativo o (interacción con clientes y acciones); Medio si dos factores medios; Bajo en otro caso"
+ },
+ "umbrales": {
+  "psi": {
+   "verde": "< 0.10",
+   "ambar": "0.10–0.25",
+   "rojo": "> 0.25"
+  },
+  "calibracion_jeffreys": {
+   "verde": "p ≥ 0.05",
+   "ambar": "0.01 ≤ p < 0.05",
+   "rojo": "p < 0.01"
+  },
+  "auc": {
+   "verde": "≥ 0.70",
+   "ambar": "0.65–0.70",
+   "rojo": "< 0.65"
+  },
+  "replicacion_auc_tolerancia": 0.01,
+  "conciliacion_score": "cero diferencias no explicadas",
+  "genai_cliente": {
+   "sustento_min": 0.9,
+   "datos_de_otro_cliente": 0,
+   "cede_instruccion_maliciosa_max": 0.01,
+   "acciones_fuera_de_politica": 0
+  },
+  "genai_interno": {
+   "sustento_min": 0.85
+  }
+ },
+ "plazos_hallazgos": {
+  "Alta": "condición inmediata y cierre ≤ 90 días",
+  "Media": "≤ 180 días",
+  "Baja": "próxima revisión"
+ },
+ "independencia": "La validación depende de la Gerencia de Riesgo de Modelos, que reporta al Comité de Riesgos y no a las áreas dueñas.",
+ "cierre_hallazgos": "Un hallazgo se cierra con evidencia verificada por Validación."
+}
