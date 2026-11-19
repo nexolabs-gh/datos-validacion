@@ -21,6 +21,7 @@ Si GitHub no responde, el espejo es `https://cdn.jsdelivr.net/gh/nexolabs-gh/dat
 ```python
 import hashlib, json, urllib.request
 
+BASE = "https://raw.githubusercontent.com/nexolabs-gh/datos-validacion/main/v1"
 manifiesto = json.load(urllib.request.urlopen(f"{BASE}/manifiesto.json"))
 datos = urllib.request.urlopen(f"{BASE}/a_produccion.parquet").read()
 assert hashlib.sha256(datos).hexdigest() == manifiesto["a_produccion.parquet"]["sha256"]
